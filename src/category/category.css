@@ -1,0 +1,36 @@
+.container{
+    padding: 40px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+}
+
+.breadcumb{
+    display: block;
+    width: 100%;
+    font-weight: 500;
+}
+
+.box{
+    height: 240px;
+    width: 190px;
+    position: relative;
+    display: inline-block;
+    margin: 20px;
+    box-shadow: 1px 1px 3px;
+}
+
+.box:hover{
+    transform: scale(1.05,1.05);
+}
+
+.footer{
+    position: absolute;
+    bottom: 0;
+    background-color: blue;
+    width: 100%;
+    color: white;
+    padding: 10px;
+    box-sizing: border-box;
+    text-align: center;
+}
